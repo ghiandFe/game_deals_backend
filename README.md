@@ -9,23 +9,25 @@ Game deals is an application that collects the best game offers on Steam, GOG an
 Registered users can browse, filter and sort deals.
 
 The application is written with Django (Backend) and React.js (Frontend).<br>
-This documentation explains all necessary steps to run and test the backend application.<br>
+This documentation explains all necessary steps to run and test the backend application.
+
 Game Deals frontend is located at the following URL:<br>
-[URL]
+> https://github.com/ghiandFe/game_deals_frontend
 
 ## REQUIREMENTS
 
-Python v3.9.6 (and venv) installed on your system
+- Python v3.9.6 (and venv) installed on your system
+- Git installed on your system
 
 ## CLONING REPOSITORY
 
 Open command line and run:
 ```sh
-$ git clone [URL]
+$ git clone https://github.com/ghiandFe/game_deals_backend.git
 ```
-When the command is executed, open the folder created and check for the manage.py file:
+When the command is executed, open the folder created (game_deals_backend) and check for the manage.py file:
 ```sh
-$ cd [NOMECARTELLA]
+$ cd game_deals_backend
 
 # Linux
 $ ls
@@ -36,6 +38,8 @@ $ ls
 If check successfully, go to the next step.
 
 ## SYSTEM CONFIGURATION
+
+From now on, all commands must be launched from within the repo folder (game_deals_backend)
 
 ### Creating virtual environment
 
@@ -52,7 +56,7 @@ $ python3 -m venv gamedeals_venv
 $ python3.9 -m venv gamedeals_venv
 ```
 
-Now, you should activate the virtual environment:
+Now, we should activate the virtual environment:
 
 ```sh
 # linux
